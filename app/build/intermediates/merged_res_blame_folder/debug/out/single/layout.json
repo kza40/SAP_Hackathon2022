@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/fragment_dashboard.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_to_do.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_to_do.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/fragment_notifications.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.sap_social.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "com.example.sap_social.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_calander.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_calander.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_test.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/fragment_home.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_home.xml"
+    }
+]
