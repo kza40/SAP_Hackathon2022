@@ -1,78 +1,142 @@
 [
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/menu_menu.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/menu/menu.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_fragment_dashboard.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/layout_activity_to_do.xml.flat",
-        "source": "com.example.sap_social.app-main-31:/layout/activity_to_do.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.sap_social.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "com.example.sap_social.app-main-45:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_activity_calander.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_calander.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.sap_social.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.sap_social.app-main-31:/layout/activity_main.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_fragment_home.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/layout_activity_calander.xml.flat",
-        "source": "com.example.sap_social.app-main-31:/layout/activity_calander.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_selector.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/selector.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "com.example.sap_social.app-main-31:/xml/backup_rules.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.sap_social.app-main-31:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.sap_social.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_fragment_notifications.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_list.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/ic_list.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sap_social.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_activity_to_do.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_to_do.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/xml_backup_rules.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_baseline_home_24.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_calender.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/ic_calender.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_activity_test.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_home.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-pngs-38:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
     }
 ]

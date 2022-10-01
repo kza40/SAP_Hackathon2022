@@ -11,7 +11,10 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 public class to_do extends AppCompatActivity {
+    BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +22,7 @@ public class to_do extends AppCompatActivity {
         setContentView(R.layout.activity_to_do);
 
         setupActionBar();
+        setupBottomNav();
     }
     public static Intent makeIntent(Context context) {
         return new Intent(context, to_do.class);
@@ -27,7 +31,7 @@ public class to_do extends AppCompatActivity {
 
         ActionBar ab = getSupportActionBar();
         assert ab != null;
-        ab.setDisplayHomeAsUpEnabled(true);
+        //ab.setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("TO DO LIST");
         ColorDrawable colour = new ColorDrawable(Color.parseColor("#CAE1FF"));
         ab.setBackgroundDrawable(colour);
@@ -35,11 +39,35 @@ public class to_do extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
         if (item.getItemId() == android.R.id.home) {
-
             finish();
         }
         return super.onOptionsItemSelected(item);
     }
+
+    private void setupBottomNav() {
+        bottomNavigationView = findViewById(R.id.bottom_navigator);
+        bottomNavigationView.setSelectedItemId(R.id.todolist);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId())
+                {
+                    case R.id.todolist:
+                        return true;
+                    case R.id.calender:
+                        Intent intent = Calander.makeIntent(to_do.this);
+                        startActivity(intent);
+                        return true;
+                    case R.id.homeNAV:
+                        Intent intent2 = MainActivity.makeIntent(to_do.this);
+                        startActivity(intent2);
+                        return true;
+                }
+                return false;
+            }
+        });
+    }
+
 }

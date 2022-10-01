@@ -8,6 +8,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Sap-Social</string>
+    <string name="calender">CALENDER</string>
+    <string name="to_do">TO DO</string>
     <style name="Theme.SapSocial" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

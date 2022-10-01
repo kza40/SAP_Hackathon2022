@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sap_social.app-mergeDebugResources-27:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.sap_social.app-mergeDebugResources-41:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/atkachenko/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/res/values-en-rCA/values-en-rCA.xml",
