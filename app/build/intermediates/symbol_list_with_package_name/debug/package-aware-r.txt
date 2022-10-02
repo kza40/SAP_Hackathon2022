@@ -2503,6 +2503,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_add_box_24
 drawable ic_calender
 drawable ic_clock_black_24dp
 drawable ic_home
@@ -2556,16 +2557,17 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable sapsocial
 drawable selector
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id AddEventTV
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id DashboardWelcomeText
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2633,6 +2635,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addEventButton
 id alertTitle
 id aligned
 id all
@@ -2745,10 +2748,13 @@ id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
 id elastic
+id emptyStateEventText
 id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id eventDescriptionText
+id eventTitleText
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2791,6 +2797,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView2
 id immediateStop
 id included
 id info
@@ -2809,6 +2816,7 @@ id line1
 id line3
 id linear
 id listMode
+id listOfEvents
 id list_item
 id locale
 id ltr
@@ -2922,6 +2930,7 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id saveEventButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3152,6 +3161,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_event
 layout activity_calander
 layout activity_main
 layout activity_to_do
@@ -3171,6 +3181,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout events_layout
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
