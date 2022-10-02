@@ -4,6 +4,9 @@ package com.example.sap_social.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,16 +24,34 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView DashboardWelcomeText;
+  public final TextView AddEventTV;
+
+  @NonNull
+  public final ImageButton addEventButton;
 
   @NonNull
   public final BottomNavigationView bottomNavigator;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView DashboardWelcomeText, @NonNull BottomNavigationView bottomNavigator) {
+  @NonNull
+  public final TextView emptyStateEventText;
+
+  @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ListView listOfEvents;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView AddEventTV,
+      @NonNull ImageButton addEventButton, @NonNull BottomNavigationView bottomNavigator,
+      @NonNull TextView emptyStateEventText, @NonNull ImageView imageView2,
+      @NonNull ListView listOfEvents) {
     this.rootView = rootView;
-    this.DashboardWelcomeText = DashboardWelcomeText;
+    this.AddEventTV = AddEventTV;
+    this.addEventButton = addEventButton;
     this.bottomNavigator = bottomNavigator;
+    this.emptyStateEventText = emptyStateEventText;
+    this.imageView2 = imageView2;
+    this.listOfEvents = listOfEvents;
   }
 
   @Override
@@ -60,9 +81,15 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.DashboardWelcomeText;
-      TextView DashboardWelcomeText = ViewBindings.findChildViewById(rootView, id);
-      if (DashboardWelcomeText == null) {
+      id = R.id.AddEventTV;
+      TextView AddEventTV = ViewBindings.findChildViewById(rootView, id);
+      if (AddEventTV == null) {
+        break missingId;
+      }
+
+      id = R.id.addEventButton;
+      ImageButton addEventButton = ViewBindings.findChildViewById(rootView, id);
+      if (addEventButton == null) {
         break missingId;
       }
 
@@ -72,8 +99,26 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, DashboardWelcomeText,
-          bottomNavigator);
+      id = R.id.emptyStateEventText;
+      TextView emptyStateEventText = ViewBindings.findChildViewById(rootView, id);
+      if (emptyStateEventText == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.listOfEvents;
+      ListView listOfEvents = ViewBindings.findChildViewById(rootView, id);
+      if (listOfEvents == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, AddEventTV, addEventButton,
+          bottomNavigator, emptyStateEventText, imageView2, listOfEvents);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

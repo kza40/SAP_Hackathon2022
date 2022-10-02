@@ -33,7 +33,7 @@ public class to_do extends AppCompatActivity {
         assert ab != null;
         //ab.setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("TO DO LIST");
-        ColorDrawable colour = new ColorDrawable(Color.parseColor("#CAE1FF"));
+        ColorDrawable colour = new ColorDrawable(Color.parseColor("#1976D3"));
         ab.setBackgroundDrawable(colour);
     }
 
@@ -69,5 +69,9 @@ public class to_do extends AppCompatActivity {
             }
         });
     }
-
+    @Override
+    protected void onResume() {
+        super.onResume();
+        setupBottomNav();
+    }
 }

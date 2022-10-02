@@ -2502,6 +2502,7 @@ int drawable design_ic_visibility 0x7f070060
 int drawable design_ic_visibility_off 0x7f070061
 int drawable design_password_eye 0x7f070062
 int drawable design_snackbar_background 0x7f070063
+int drawable ic_baseline_add_box_24 0x7f07009f
 int drawable ic_calender 0x7f070065
 int drawable ic_clock_black_24dp 0x7f070066
 int drawable ic_home 0x7f07009e
@@ -2555,16 +2556,17 @@ int drawable notification_template_icon_bg 0x7f070095
 int drawable notification_template_icon_low_bg 0x7f070096
 int drawable notification_tile_bg 0x7f070097
 int drawable notify_panel_notification_icon_bg 0x7f070098
+int drawable sapsocial 0x7f0700a0
 int drawable selector 0x7f070099
 int drawable test_custom_background 0x7f07009a
 int drawable test_level_drawable 0x7f07009b
 int drawable tooltip_frame_dark 0x7f07009c
 int drawable tooltip_frame_light 0x7f07009d
 int id ALT 0x7f080000
+int id AddEventTV 0x7f0801fa
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
-int id DashboardWelcomeText 0x7f080004
 int id FUNCTION 0x7f080005
 int id META 0x7f080006
 int id NO_DEBUG 0x7f080007
@@ -2632,6 +2634,7 @@ int id action_text 0x7f080044
 int id actions 0x7f080045
 int id activity_chooser_view_content 0x7f080046
 int id add 0x7f080047
+int id addEventButton 0x7f0801f6
 int id alertTitle 0x7f080048
 int id aligned 0x7f080049
 int id all 0x7f08004a
@@ -2744,10 +2747,13 @@ int id edit_query 0x7f0800b5
 int id edittext_dropdown_editable 0x7f0800b6
 int id edittext_dropdown_noneditable 0x7f0800b7
 int id elastic 0x7f0800b8
+int id emptyStateEventText 0x7f0801fc
 int id end 0x7f0800b9
 int id endToStart 0x7f0800ba
 int id enterAlways 0x7f0800bb
 int id enterAlwaysCollapsed 0x7f0800bc
+int id eventDescriptionText 0x7f0801f7
+int id eventTitleText 0x7f0801f8
 int id exitUntilCollapsed 0x7f0800bd
 int id expand_activities_button 0x7f0800be
 int id expanded_menu 0x7f0800bf
@@ -2790,6 +2796,7 @@ int id ifRoom 0x7f0800e2
 int id ignore 0x7f0800e3
 int id ignoreRequest 0x7f0800e4
 int id image 0x7f0800e5
+int id imageView2 0x7f0801fb
 int id immediateStop 0x7f0800e6
 int id included 0x7f0800e7
 int id info 0x7f0800e8
@@ -2808,6 +2815,7 @@ int id line1 0x7f0800f4
 int id line3 0x7f0800f5
 int id linear 0x7f0800f6
 int id listMode 0x7f0800f7
+int id listOfEvents 0x7f0801f4
 int id list_item 0x7f0800f8
 int id locale 0x7f0800f9
 int id ltr 0x7f0800fa
@@ -2921,6 +2929,7 @@ int id right_side 0x7f080165
 int id rounded 0x7f080166
 int id row_index_key 0x7f080167
 int id rtl 0x7f080168
+int id saveEventButton 0x7f0801f9
 int id save_non_transition_alpha 0x7f080169
 int id save_overlay_view 0x7f08016a
 int id sawtooth 0x7f08016b
@@ -3151,6 +3160,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_add_event 0x7f0b007a
 int layout activity_calander 0x7f0b001c
 int layout activity_main 0x7f0b001d
 int layout activity_to_do 0x7f0b001e
@@ -3170,6 +3180,7 @@ int layout design_navigation_menu 0x7f0b002b
 int layout design_navigation_menu_item 0x7f0b002c
 int layout design_text_input_end_icon 0x7f0b002d
 int layout design_text_input_start_icon 0x7f0b002e
+int layout events_layout 0x7f0b0079
 int layout m3_alert_dialog 0x7f0b002f
 int layout m3_alert_dialog_actions 0x7f0b0030
 int layout m3_alert_dialog_title 0x7f0b0031
