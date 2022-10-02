@@ -61,10 +61,22 @@ public class CalendarActivity extends AppCompatActivity {
                 CalendarView calendar = findViewById(R.id.calendarView);
                 calendar.setVisibility(View.INVISIBLE);
                 TextView text = findViewById(R.id.whosComingText);
-                text.setText("Whos coming today:\n RAJNESH \n ALEX \n KIARASH");
+                text.setText("RAJNESH \nALEX \nKIARASH");
                 text.setVisibility(View.VISIBLE);
+                Button metoo = findViewById(R.id.metooButton);
+                metoo.setVisibility(View.VISIBLE);
 
                 setupOkButton();
+                setupMetooButton();
+            }
+
+            private void setupMetooButton() {
+                Button metoo = findViewById(R.id.metooButton);
+                metoo.setOnClickListener(view-> {
+                    TextView text = findViewById(R.id.whosComingText);
+                    text.append("\nME!");
+                    metoo.setVisibility(View.INVISIBLE);
+                });
             }
 
             private void setupOkButton() {
@@ -76,6 +88,8 @@ public class CalendarActivity extends AppCompatActivity {
                     TextView text = findViewById(R.id.whosComingText);
                     text.setVisibility(View.INVISIBLE);
                     button.setVisibility(View.INVISIBLE);
+                    Button metoo = findViewById(R.id.metooButton);
+                    metoo.setVisibility(View.INVISIBLE);
                 });
             }
         });

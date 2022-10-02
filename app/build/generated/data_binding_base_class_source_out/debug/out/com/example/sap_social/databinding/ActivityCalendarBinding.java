@@ -4,11 +4,12 @@ package com.example.sap_social.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.Button;
+import android.widget.CalendarView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.sap_social.R;
@@ -19,29 +20,42 @@ import java.lang.String;
 
 public final class ActivityCalendarBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final BottomNavigationView bottomNavigator;
 
   @NonNull
-  public final RecyclerView calendarRecyclerView;
+  public final CalendarView calendarView;
 
   @NonNull
-  public final TextView monthYearTV;
+  public final Button metooButton;
 
-  private ActivityCalendarBinding(@NonNull LinearLayout rootView,
-      @NonNull BottomNavigationView bottomNavigator, @NonNull RecyclerView calendarRecyclerView,
-      @NonNull TextView monthYearTV) {
+  @NonNull
+  public final Button okDoneButton;
+
+  @NonNull
+  public final TextView textView3;
+
+  @NonNull
+  public final TextView whosComingText;
+
+  private ActivityCalendarBinding(@NonNull ConstraintLayout rootView,
+      @NonNull BottomNavigationView bottomNavigator, @NonNull CalendarView calendarView,
+      @NonNull Button metooButton, @NonNull Button okDoneButton, @NonNull TextView textView3,
+      @NonNull TextView whosComingText) {
     this.rootView = rootView;
     this.bottomNavigator = bottomNavigator;
-    this.calendarRecyclerView = calendarRecyclerView;
-    this.monthYearTV = monthYearTV;
+    this.calendarView = calendarView;
+    this.metooButton = metooButton;
+    this.okDoneButton = okDoneButton;
+    this.textView3 = textView3;
+    this.whosComingText = whosComingText;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -72,20 +86,38 @@ public final class ActivityCalendarBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.calendarRecyclerView;
-      RecyclerView calendarRecyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (calendarRecyclerView == null) {
+      id = R.id.calendarView;
+      CalendarView calendarView = ViewBindings.findChildViewById(rootView, id);
+      if (calendarView == null) {
         break missingId;
       }
 
-      id = R.id.monthYearTV;
-      TextView monthYearTV = ViewBindings.findChildViewById(rootView, id);
-      if (monthYearTV == null) {
+      id = R.id.metooButton;
+      Button metooButton = ViewBindings.findChildViewById(rootView, id);
+      if (metooButton == null) {
         break missingId;
       }
 
-      return new ActivityCalendarBinding((LinearLayout) rootView, bottomNavigator,
-          calendarRecyclerView, monthYearTV);
+      id = R.id.okDoneButton;
+      Button okDoneButton = ViewBindings.findChildViewById(rootView, id);
+      if (okDoneButton == null) {
+        break missingId;
+      }
+
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.whosComingText;
+      TextView whosComingText = ViewBindings.findChildViewById(rootView, id);
+      if (whosComingText == null) {
+        break missingId;
+      }
+
+      return new ActivityCalendarBinding((ConstraintLayout) rootView, bottomNavigator, calendarView,
+          metooButton, okDoneButton, textView3, whosComingText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

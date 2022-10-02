@@ -52,7 +52,7 @@ public class addTask extends AppCompatActivity {
         ActionBar ab = getSupportActionBar();
         assert ab != null;
         ab.setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("TO DO LIST");
+        getSupportActionBar().setTitle("ADD TASK");
         ColorDrawable colour = new ColorDrawable(Color.parseColor("#1976D3"));
         ab.setBackgroundDrawable(colour);
     }

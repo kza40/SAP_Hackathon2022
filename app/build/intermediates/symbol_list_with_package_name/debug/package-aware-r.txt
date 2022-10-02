@@ -2852,6 +2852,7 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id message
+id metooButton
 id middle
 id mini
 id month_grid
@@ -3177,11 +3178,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_event
-<<<<<<< HEAD
-=======
 layout activity_add_task
-layout activity_calander
->>>>>>> master
 layout activity_calendar
 layout activity_main
 layout activity_to_do

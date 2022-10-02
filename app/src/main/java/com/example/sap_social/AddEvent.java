@@ -2,6 +2,7 @@ package com.example.sap_social;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -81,7 +82,10 @@ public class AddEvent extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
+
+        if (isExistingEventClicked && !eventTitle.getText().toString().equals("")) {
+            alertDialog();
+        } else if (item.getItemId() == android.R.id.home) {
             finish();
         }
         return super.onOptionsItemSelected(item);
@@ -97,5 +101,23 @@ public class AddEvent extends AppCompatActivity {
         intent.putExtra(AddEvent.index, index);
         intent.putExtra(AddEvent.edit, edit);
         return intent;
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (isExistingEventClicked && !eventTitle.getText().toString().equals("")) {
+            alertDialog();
+        } else {
+            finish();
+        }
+    }
+
+    private void alertDialog() {
+        AlertDialog confirm = new AlertDialog.Builder(AddEvent.this)
+                .setTitle("Confirm")
+                .setMessage("Are you sure you wish to exit without saving?")
+                .setPositiveButton("Yes", (dialogInterface, i) -> finish())
+                .setNegativeButton("Cancel", null)
+                .show();
     }
 }

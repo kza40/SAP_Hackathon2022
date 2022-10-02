@@ -31,26 +31,18 @@ id floatingActionButtonToDO
 id homeNAV
 id imageView2
 id listOfEvents
-<<<<<<< HEAD
+id metooButton
+id newTaskButton
 id okDoneButton
 id saveEventButton
-id textView3
-=======
-id monthYearTV
-id newTaskButton
-id saveEventButton
 id taskInputText
+id textView3
 id toDoListView
 id toDoText
->>>>>>> master
 id todolist
 id whosComingText
 layout activity_add_event
-<<<<<<< HEAD
-=======
 layout activity_add_task
-layout activity_calander
->>>>>>> master
 layout activity_calendar
 layout activity_main
 layout activity_to_do

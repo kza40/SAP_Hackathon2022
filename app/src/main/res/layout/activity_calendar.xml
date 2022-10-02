@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal_700"
     tools:context=".CalendarActivity">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="247dp"
-        android:layout_height="87dp"
-        android:text="Who's coming in today?"
+        android:layout_width="287dp"
+        android:layout_height="84dp"
+        android:gravity="center"
+        android:text="Who Is Coming In?"
         android:textAlignment="center"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/calendarView"
@@ -37,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Coming in today:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/calendarView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,11 +53,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OK"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/calendarView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/whosComingText" />
+        app:layout_constraintTop_toBottomOf="@+id/whosComingText"
+        app:layout_constraintVertical_bias="0.912" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigator"
@@ -68,5 +74,19 @@
         app:menu="@menu/menu"
         tools:layout_editor_absoluteX="-15dp"
         tools:layout_editor_absoluteY="617dp" />
+
+    <Button
+        android:id="@+id/metooButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ME TOO!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/okDoneButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/calendarView"
+        app:layout_constraintVertical_bias="0.951" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
