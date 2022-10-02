@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
+ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
 MERGED from [androidx.databinding:viewbinding:7.3.0] /Users/atkachenko/.gradle/caches/transforms-3/c4cb892f171ca1d410550e46c7385279/transformed/viewbinding-7.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.2] /Users/atkachenko/.gradle/caches/transforms-3/b8f7072fe15f8fedc2b1b486f368b8b4/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.2] /Users/atkachenko/.gradle/caches/transforms-3/638eab11ae75b8eeaeac454e91850571/transformed/fragment-ktx-1.5.2/AndroidManifest.xml:17:1-24:12
@@ -58,27 +58,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/atkachenko/.gradle
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/3ac119fa795bc1ef3ecdd8c6ea4af554/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/5b9f05308f02d2aab4c4e2d31764b8b7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/atkachenko/.gradle/caches/transforms-3/760b9af4b43b4d512130ddd1633ee153/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
 	package
 		INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-58:12
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:5:5-56:19
+ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:5:5-63:19
 MERGED from [com.google.android.material:material:1.6.1] /Users/atkachenko/.gradle/caches/transforms-3/0700c079a9361c9bc5e6404d34690c50/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] /Users/atkachenko/.gradle/caches/transforms-3/0700c079a9361c9bc5e6404d34690c50/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/atkachenko/.gradle/caches/transforms-3/9827ec6617366e82ed5e7c7a909d86e6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -115,52 +115,67 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atkachenko/.gradle/c
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:13:9-47
 	android:dataExtractionRules
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.example.sap_social.AddEvent
+activity#com.example.sap_social.addTask
 ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:16:13-37
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:16:13-36
 meta-data#android.app.lib_name
 ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:18:13-20:36
 	android:value
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:19:17-52
+<<<<<<< HEAD
 activity#com.example.sap_social.CalendarActivity
+=======
+activity#com.example.sap_social.AddEvent
+>>>>>>> master
 ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:exported
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
+<<<<<<< HEAD
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:23:13-45
 activity#com.example.sap_social.to_do
+=======
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:23:13-37
+activity#com.example.sap_social.Calander
+>>>>>>> master
 ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:29:9-35:20
 	android:exported
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:30:13-34
-activity#com.example.sap_social.Dashboards
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:30:13-37
+activity#com.example.sap_social.to_do
 ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:36:9-42:20
 	android:exported
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:37:13-39
-activity#com.example.sap_social.MainActivity
-ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:43:9-55:20
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:37:13-34
+activity#com.example.sap_social.Dashboards
+ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:43:9-49:20
 	android:exported
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:45:13-36
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:44:13-41
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:44:13-39
+activity#com.example.sap_social.MainActivity
+ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:50:9-62:20
+	android:exported
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:51:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:46:13-50:29
+ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:53:13-57:29
 action#android.intent.action.MAIN
-ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:47:17-69
+ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:54:17-69
 	android:name
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:47:25-66
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:54:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:49:17-77
+ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:56:17-77
 	android:name
-		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:49:27-74
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:56:27-74
 uses-sdk
 INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml

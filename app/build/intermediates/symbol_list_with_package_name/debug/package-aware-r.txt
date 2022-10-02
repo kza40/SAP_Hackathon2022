@@ -2505,6 +2505,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_add
 drawable ic_baseline_add_box_24
 drawable ic_calender
 drawable ic_clock_black_24dp
@@ -2638,6 +2639,7 @@ id actions
 id activity_chooser_view_content
 id add
 id addEventButton
+id addTaskText
 id alertTitle
 id aligned
 id all
@@ -2683,6 +2685,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkBox
 id checkbox
 id checked
 id chip
@@ -2775,6 +2778,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id floatingActionButtonToDO
 id forever
 id fragment_container_view_tag
 id frost
@@ -2893,6 +2897,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newTaskButton
 id noScroll
 id noState
 id none
@@ -3013,6 +3018,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id taskInputText
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -3038,6 +3044,8 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toDoListView
+id toDoText
 id todolist
 id toggle
 id top
@@ -3169,6 +3177,11 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_event
+<<<<<<< HEAD
+=======
+layout activity_add_task
+layout activity_calander
+>>>>>>> master
 layout activity_calendar
 layout activity_main
 layout activity_to_do
@@ -3264,6 +3277,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout todo_layout
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round

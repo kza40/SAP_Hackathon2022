@@ -10,20 +10,57 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class to_do extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
+    private TaskManager taskManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_to_do);
 
+        taskManager = TaskManager.getInstance();
+
         setupActionBar();
         setupBottomNav();
+        setupFAB();
+        populateListView();
     }
+
+    private void populateListView() {
+//        if (eventManager.isEmpty()) {
+//            emptyState(View.VISIBLE);
+//        } else {
+//            emptyState(View.INVISIBLE);
+//        }
+        List<String> theTasks = new ArrayList<>();
+        for (String task: taskManager) {
+            theTasks.add(task);
+        }
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.todo_layout, R.id.toDoText, theTasks);
+        ListView list = findViewById(R.id.toDoListView);
+        list.setAdapter(adapter);
+    }
+
+    private void setupFAB() {
+        FloatingActionButton fab = findViewById(R.id.floatingActionButtonToDO);
+        fab.setOnClickListener(view->{
+            Intent intent = addTask.makeIntent(to_do.this);
+            startActivity(intent);
+        });
+    }
+
     public static Intent makeIntent(Context context) {
         return new Intent(context, to_do.class);
     }
@@ -73,5 +110,6 @@ public class to_do extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         setupBottomNav();
+        populateListView();
     }
 }

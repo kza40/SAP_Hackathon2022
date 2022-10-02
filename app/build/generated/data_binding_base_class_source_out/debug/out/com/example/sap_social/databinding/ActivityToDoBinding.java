@@ -4,6 +4,8 @@ package com.example.sap_social.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -11,6 +13,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.sap_social.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,12 +23,25 @@ public final class ActivityToDoBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView addTaskText;
+
+  @NonNull
   public final BottomNavigationView bottomNavigator;
 
-  private ActivityToDoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavigator) {
+  @NonNull
+  public final FloatingActionButton floatingActionButtonToDO;
+
+  @NonNull
+  public final ListView toDoListView;
+
+  private ActivityToDoBinding(@NonNull ConstraintLayout rootView, @NonNull TextView addTaskText,
+      @NonNull BottomNavigationView bottomNavigator,
+      @NonNull FloatingActionButton floatingActionButtonToDO, @NonNull ListView toDoListView) {
     this.rootView = rootView;
+    this.addTaskText = addTaskText;
     this.bottomNavigator = bottomNavigator;
+    this.floatingActionButtonToDO = floatingActionButtonToDO;
+    this.toDoListView = toDoListView;
   }
 
   @Override
@@ -55,13 +71,32 @@ public final class ActivityToDoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.addTaskText;
+      TextView addTaskText = ViewBindings.findChildViewById(rootView, id);
+      if (addTaskText == null) {
+        break missingId;
+      }
+
       id = R.id.bottom_navigator;
       BottomNavigationView bottomNavigator = ViewBindings.findChildViewById(rootView, id);
       if (bottomNavigator == null) {
         break missingId;
       }
 
-      return new ActivityToDoBinding((ConstraintLayout) rootView, bottomNavigator);
+      id = R.id.floatingActionButtonToDO;
+      FloatingActionButton floatingActionButtonToDO = ViewBindings.findChildViewById(rootView, id);
+      if (floatingActionButtonToDO == null) {
+        break missingId;
+      }
+
+      id = R.id.toDoListView;
+      ListView toDoListView = ViewBindings.findChildViewById(rootView, id);
+      if (toDoListView == null) {
+        break missingId;
+      }
+
+      return new ActivityToDoBinding((ConstraintLayout) rootView, addTaskText, bottomNavigator,
+          floatingActionButtonToDO, toDoListView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

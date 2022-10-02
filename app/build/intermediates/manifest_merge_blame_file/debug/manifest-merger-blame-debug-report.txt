@@ -11,7 +11,7 @@
 9-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:5:5-56:19
+11-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:5:5-63:19
 12        android:allowBackup="true"
 12-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,8 +34,8 @@
 22-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:13:9-47
 23        <activity
 23-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:15:9-21:20
-24            android:name="com.example.sap_social.AddEvent"
-24-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:16:13-37
+24            android:name="com.example.sap_social.addTask"
+24-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:16:13-36
 25            android:exported="false" >
 25-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:17:13-37
 26            <meta-data
@@ -47,8 +47,13 @@
 29        </activity>
 30        <activity
 30-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:22:9-28:20
+<<<<<<< HEAD
 31            android:name="com.example.sap_social.CalendarActivity"
 31-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:23:13-45
+=======
+31            android:name="com.example.sap_social.AddEvent"
+31-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:23:13-37
+>>>>>>> master
 32            android:exported="false" >
 32-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:24:13-37
 33            <meta-data
@@ -60,8 +65,8 @@
 36        </activity>
 37        <activity
 37-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:29:9-35:20
-38            android:name="com.example.sap_social.to_do"
-38-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:30:13-34
+38            android:name="com.example.sap_social.Calander"
+38-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:30:13-37
 39            android:exported="false" >
 39-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:31:13-37
 40            <meta-data
@@ -73,8 +78,8 @@
 43        </activity>
 44        <activity
 44-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:36:9-42:20
-45            android:name="com.example.sap_social.Dashboards"
-45-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:37:13-39
+45            android:name="com.example.sap_social.to_do"
+45-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:37:13-34
 46            android:exported="false" >
 46-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:38:13-37
 47            <meta-data
@@ -85,64 +90,77 @@
 49-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:20:17-33
 50        </activity>
 51        <activity
-51-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:43:9-55:20
-52            android:name="com.example.sap_social.MainActivity"
-52-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:44:13-41
-53            android:exported="true" >
-53-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:45:13-36
-54            <intent-filter>
-54-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:46:13-50:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:47:17-69
-55-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:47:25-66
-56
-57                <category android:name="android.intent.category.LAUNCHER" />
-57-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:49:17-77
-57-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:49:27-74
-58            </intent-filter>
-59
-60            <meta-data
-60-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:18:13-20:36
-61                android:name="android.app.lib_name"
-61-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:19:17-52
-62                android:value="" />
-62-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:20:17-33
-63        </activity>
-64
-65        <uses-library
-65-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-66            android:name="androidx.window.extensions"
-66-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-67            android:required="false" />
-67-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-68        <uses-library
-68-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-69            android:name="androidx.window.sidecar"
-69-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-70            android:required="false" />
-70-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+51-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:43:9-49:20
+52            android:name="com.example.sap_social.Dashboards"
+52-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:44:13-39
+53            android:exported="false" >
+53-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:45:13-37
+54            <meta-data
+54-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:20:17-33
+57        </activity>
+58        <activity
+58-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:50:9-62:20
+59            android:name="com.example.sap_social.MainActivity"
+59-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:51:13-41
+60            android:exported="true" >
+60-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:52:13-36
+61            <intent-filter>
+61-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:53:13-57:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:54:17-69
+62-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:54:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:56:17-77
+64-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:56:27-74
+65            </intent-filter>
+66
+67            <meta-data
+67-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:18:13-20:36
+68                android:name="android.app.lib_name"
+68-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:19:17-52
+69                android:value="" />
+69-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:20:17-33
+70        </activity>
 71
-72        <provider
-72-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-73            android:name="androidx.startup.InitializationProvider"
-73-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-74            android:authorities="com.example.sap_social.androidx-startup"
-74-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-75            android:exported="false" >
-75-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-76            <meta-data
-76-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-77-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-78                android:value="androidx.startup" />
-78-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-79            <meta-data
-79-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atkachenko/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-80-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atkachenko/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-81                android:value="androidx.startup" />
-81-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atkachenko/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-82        </provider>
-83    </application>
-84
-85</manifest>
+72        <uses-library
+72-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0] /Users/atkachenko/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.sap_social.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] /Users/atkachenko/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atkachenko/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atkachenko/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atkachenko/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>
