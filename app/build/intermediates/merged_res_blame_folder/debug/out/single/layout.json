@@ -12,8 +12,12 @@
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "com.example.sap_social.app-mergeDebugResources-42:/layout/activity_main.xml",
-        "source": "com.example.sap_social.app-main-45:/layout/activity_main.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/calendar_cell.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/calendar_cell.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_calendar.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_calendar.xml"
     },
     {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_main.xml",
@@ -32,11 +36,15 @@
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/events_layout.xml"
     },
     {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_add_event.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_add_event.xml"
+    },
+    {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/fragment_home.xml",
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_add_event.xml",
-        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_add_event.xml"
+        "merged": "com.example.sap_social.app-mergeDebugResources-42:/layout/activity_calendar.xml",
+        "source": "com.example.sap_social.app-main-45:/layout/activity_calendar.xml"
     }
 ]

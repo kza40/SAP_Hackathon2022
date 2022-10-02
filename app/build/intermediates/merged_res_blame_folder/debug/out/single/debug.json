@@ -12,10 +12,6 @@
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.sap_social.app-merged_res-43:/layout_activity_main.xml.flat",
-        "source": "com.example.sap_social.app-main-45:/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_activity_calander.xml.flat",
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_calander.xml"
     },
@@ -50,6 +46,10 @@
     {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_selector.xml.flat",
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/drawable/selector.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_calendar_cell.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/calendar_cell.xml"
     },
     {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -112,8 +112,16 @@
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/layout_activity_calendar.xml.flat",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_calendar.xml"
+    },
+    {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/navigation_mobile_navigation.xml.flat",
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.sap_social.app-merged_res-43:/layout_activity_calendar.xml.flat",
+        "source": "com.example.sap_social.app-main-45:/layout/activity_calendar.xml"
     },
     {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-merged_res-43:/drawable_ic_baseline_home_24.xml.flat",

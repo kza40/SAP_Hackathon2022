@@ -1252,6 +1252,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1311,6 +1312,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2667,10 +2669,12 @@ id bounceEnd
 id bounceStart
 id buttonPanel
 id cache_measures
+id calendarRecyclerView
 id calender
 id callMeasure
 id cancel_button
 id carryVelocity
+id cellDayText
 id center
 id centerCrop
 id centerInside
@@ -2846,6 +2850,7 @@ id matrix
 id message
 id middle
 id mini
+id monthYearTV
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3163,8 +3168,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_event
 layout activity_calander
+layout activity_calendar
 layout activity_main
 layout activity_to_do
+layout calendar_cell
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

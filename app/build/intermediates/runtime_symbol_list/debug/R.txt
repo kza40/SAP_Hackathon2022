@@ -1251,6 +1251,7 @@ int color background_floating_material_light 0x7f05001e
 int color background_material_dark 0x7f05001f
 int color background_material_light 0x7f050020
 int color black 0x7f050021
+int color blue 0x7f05025a
 int color bright_foreground_disabled_material_dark 0x7f050022
 int color bright_foreground_disabled_material_light 0x7f050023
 int color bright_foreground_inverse_material_dark 0x7f050024
@@ -1310,6 +1311,7 @@ int color error_color_material_dark 0x7f050059
 int color error_color_material_light 0x7f05005a
 int color foreground_material_dark 0x7f05005b
 int color foreground_material_light 0x7f05005c
+int color gray 0x7f05025b
 int color highlighted_text_material_dark 0x7f05005d
 int color highlighted_text_material_light 0x7f05005e
 int color m3_appbar_overlay_color 0x7f05005f
@@ -2666,10 +2668,12 @@ int id bounceEnd 0x7f080063
 int id bounceStart 0x7f080064
 int id buttonPanel 0x7f080065
 int id cache_measures 0x7f080066
+int id calendarRecyclerView 0x7f0801fd
 int id calender 0x7f080068
 int id callMeasure 0x7f080069
 int id cancel_button 0x7f08006a
 int id carryVelocity 0x7f08006b
+int id cellDayText 0x7f0801fe
 int id center 0x7f08006c
 int id centerCrop 0x7f08006d
 int id centerInside 0x7f08006e
@@ -2845,6 +2849,7 @@ int id matrix 0x7f080111
 int id message 0x7f080112
 int id middle 0x7f080113
 int id mini 0x7f080114
+int id monthYearTV 0x7f0801ff
 int id month_grid 0x7f080115
 int id month_navigation_bar 0x7f080116
 int id month_navigation_fragment_toggle 0x7f080117
@@ -3162,8 +3167,10 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_add_event 0x7f0b007a
 int layout activity_calander 0x7f0b001c
+int layout activity_calendar 0x7f0b007b
 int layout activity_main 0x7f0b001d
 int layout activity_to_do 0x7f0b001e
+int layout calendar_cell 0x7f0b007c
 int layout custom_dialog 0x7f0b001f
 int layout design_bottom_navigation_item 0x7f0b0020
 int layout design_bottom_sheet_dialog 0x7f0b0021

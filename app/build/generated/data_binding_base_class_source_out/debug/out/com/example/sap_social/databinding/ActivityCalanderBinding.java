@@ -4,9 +4,11 @@ package com.example.sap_social.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.sap_social.R;
@@ -17,20 +19,29 @@ import java.lang.String;
 
 public final class ActivityCalanderBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final BottomNavigationView bottomNavigator;
 
-  private ActivityCalanderBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavigator) {
+  @NonNull
+  public final RecyclerView calendarRecyclerView;
+
+  @NonNull
+  public final TextView monthYearTV;
+
+  private ActivityCalanderBinding(@NonNull LinearLayout rootView,
+      @NonNull BottomNavigationView bottomNavigator, @NonNull RecyclerView calendarRecyclerView,
+      @NonNull TextView monthYearTV) {
     this.rootView = rootView;
     this.bottomNavigator = bottomNavigator;
+    this.calendarRecyclerView = calendarRecyclerView;
+    this.monthYearTV = monthYearTV;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -61,7 +72,20 @@ public final class ActivityCalanderBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCalanderBinding((ConstraintLayout) rootView, bottomNavigator);
+      id = R.id.calendarRecyclerView;
+      RecyclerView calendarRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (calendarRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.monthYearTV;
+      TextView monthYearTV = ViewBindings.findChildViewById(rootView, id);
+      if (monthYearTV == null) {
+        break missingId;
+      }
+
+      return new ActivityCalanderBinding((LinearLayout) rootView, bottomNavigator,
+          calendarRecyclerView, monthYearTV);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
