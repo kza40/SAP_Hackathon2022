@@ -21,6 +21,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.SapSocial" >
         <activity
+            android:name="com.example.sap_social.addTask"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.sap_social.AddEvent"
             android:exported="false" >
             <meta-data
