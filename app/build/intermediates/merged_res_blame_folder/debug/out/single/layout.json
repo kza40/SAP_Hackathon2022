@@ -1,15 +1,7 @@
 [
     {
-        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/fragment_dashboard.xml",
-        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_dashboard.xml"
-    },
-    {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_to_do.xml",
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_to_do.xml"
-    },
-    {
-        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/fragment_notifications.xml",
-        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_notifications.xml"
     },
     {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/calendar_cell.xml",
@@ -28,23 +20,23 @@
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_calander.xml"
     },
     {
-        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_test.xml",
-        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_test.xml"
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_add_task.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_add_task.xml"
+    },
+    {
+        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/todo_layout.xml",
+        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/todo_layout.xml"
     },
     {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/events_layout.xml",
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/events_layout.xml"
     },
     {
+        "merged": "com.example.sap_social.app-mergeDebugResources-42:/layout/activity_to_do.xml",
+        "source": "com.example.sap_social.app-main-45:/layout/activity_to_do.xml"
+    },
+    {
         "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/activity_add_event.xml",
         "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/activity_add_event.xml"
-    },
-    {
-        "merged": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-mergeDebugResources-42:/layout/fragment_home.xml",
-        "source": "/Users/atkachenko/.gradle/daemon/7.4/com.example.sap_social.app-main-45:/layout/fragment_home.xml"
-    },
-    {
-        "merged": "com.example.sap_social.app-mergeDebugResources-42:/layout/activity_calendar.xml",
-        "source": "com.example.sap_social.app-main-45:/layout/activity_calendar.xml"
     }
 ]
