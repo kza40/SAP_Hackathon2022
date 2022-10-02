@@ -2668,7 +2668,7 @@ int id bounceEnd 0x7f080063
 int id bounceStart 0x7f080064
 int id buttonPanel 0x7f080065
 int id cache_measures 0x7f080066
-int id calendarRecyclerView 0x7f0801fd
+int id calendarView 0x7f080200
 int id calender 0x7f080068
 int id callMeasure 0x7f080069
 int id cancel_button 0x7f08006a
@@ -2849,7 +2849,6 @@ int id matrix 0x7f080111
 int id message 0x7f080112
 int id middle 0x7f080113
 int id mini 0x7f080114
-int id monthYearTV 0x7f0801ff
 int id month_grid 0x7f080115
 int id month_navigation_bar 0x7f080116
 int id month_navigation_fragment_toggle 0x7f080117
@@ -2902,6 +2901,7 @@ int id notification_background 0x7f080145
 int id notification_main_column 0x7f080146
 int id notification_main_column_container 0x7f080147
 int id off 0x7f080148
+int id okDoneButton 0x7f080201
 int id on 0x7f080149
 int id onInterceptTouchReturnSwipe 0x7f08014a
 int id outline 0x7f08014b
@@ -3023,6 +3023,7 @@ int id textSpacerNoButtons 0x7f0801bd
 int id textSpacerNoTitle 0x7f0801be
 int id textStart 0x7f0801bf
 int id textTop 0x7f0801c0
+int id textView3 0x7f080202
 int id text_input_end_icon 0x7f0801c1
 int id text_input_error_icon 0x7f0801c2
 int id text_input_start_icon 0x7f0801c3
@@ -3064,6 +3065,7 @@ int id view_tree_view_model_store_owner 0x7f0801e7
 int id visible 0x7f0801e8
 int id visible_removing_fragment_view_tag 0x7f0801e9
 int id west 0x7f0801ea
+int id whosComingText 0x7f080203
 int id withText 0x7f0801eb
 int id withinBounds 0x7f0801ec
 int id wrap 0x7f0801ed
@@ -3166,7 +3168,6 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_add_event 0x7f0b007a
-int layout activity_calander 0x7f0b001c
 int layout activity_calendar 0x7f0b007b
 int layout activity_main 0x7f0b001d
 int layout activity_to_do 0x7f0b001e
@@ -3662,6 +3663,9 @@ int style Base_Widget_MaterialComponents_Snackbar 0x7f100109
 int style Base_Widget_MaterialComponents_TextInputEditText 0x7f10010a
 int style Base_Widget_MaterialComponents_TextInputLayout 0x7f10010b
 int style Base_Widget_MaterialComponents_TextView 0x7f10010c
+int style CalenderViewCustom 0x7f10041e
+int style CalenderViewDateCustomText 0x7f10041f
+int style CalenderViewWeekCustomText 0x7f100420
 int style CardView 0x7f10010d
 int style CardView_Dark 0x7f10010e
 int style CardView_Light 0x7f10010f

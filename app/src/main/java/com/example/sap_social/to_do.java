@@ -57,7 +57,7 @@ public class to_do extends AppCompatActivity {
                     case R.id.todolist:
                         return true;
                     case R.id.calender:
-                        Intent intent = Calander.makeIntent(to_do.this);
+                        Intent intent = CalendarActivity.makeIntent(to_do.this);
                         startActivity(intent);
                         return true;
                     case R.id.homeNAV:

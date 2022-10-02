@@ -19,10 +19,10 @@ public class Calander extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calander);
+        setContentView(R.layout.activity_calendar);
 
-        setupActionBar();
-        setupBottomNav();
+        //setupActionBar();
+        //setupBottomNav();
     }
 
     public static Intent makeIntent(Context context) {

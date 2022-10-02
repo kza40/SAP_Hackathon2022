@@ -47,8 +47,8 @@
 29        </activity>
 30        <activity
 30-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:22:9-28:20
-31            android:name="com.example.sap_social.Calander"
-31-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:23:13-37
+31            android:name="com.example.sap_social.CalendarActivity"
+31-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:23:13-45
 32            android:exported="false" >
 32-->/Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:24:13-37
 33            <meta-data

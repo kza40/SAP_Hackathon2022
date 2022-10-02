@@ -18,7 +18,7 @@ drawable selector
 id AddEventTV
 id addEventButton
 id bottom_navigator
-id calendarRecyclerView
+id calendarView
 id calender
 id cellDayText
 id emptyStateEventText
@@ -27,11 +27,12 @@ id eventTitleText
 id homeNAV
 id imageView2
 id listOfEvents
-id monthYearTV
+id okDoneButton
 id saveEventButton
+id textView3
 id todolist
+id whosComingText
 layout activity_add_event
-layout activity_calander
 layout activity_calendar
 layout activity_main
 layout activity_to_do
@@ -43,6 +44,9 @@ mipmap ic_launcher_round
 string app_name
 string calender
 string to_do
+style CalenderViewCustom
+style CalenderViewDateCustomText
+style CalenderViewWeekCustomText
 style Theme.SapSocial
 xml backup_rules
 xml data_extraction_rules
