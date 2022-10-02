@@ -14,9 +14,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.List;
-
 public class AddEvent extends AppCompatActivity {
+    public static final String edit = "com.example.cmpt276_parentsupportapp_EDITT";
+    public static final String index = "com.example.cmpt276_parentsupportapp_INDEXT";
+
+    private boolean isExistingEventClicked;
+    private int indexOfEventClicked;
     EditText eventTitle;
     EditText eventDescription;
     EventManager eventManager;
@@ -31,8 +34,20 @@ public class AddEvent extends AppCompatActivity {
         eventDescription = findViewById(R.id.eventDescriptionText);
         eventManager = EventManager.getInstance();
 
+
+        extractDataFromIntent();
+        if (isExistingEventClicked && indexOfEventClicked != -1) {
+            existingEventClicked();
+        }
+
         setupActionBar();
         setUpSaveButton();
+    }
+
+    private void existingEventClicked() {
+        eventTitle.setText(eventManager.retrieveEventByIdx(indexOfEventClicked).getEventTitle());
+        eventDescription.setText(eventManager.retrieveEventByIdx(indexOfEventClicked).getEventDescription());
+        eventManager.replaceEvent(eventManager.retrieveEventByIdx(indexOfEventClicked), indexOfEventClicked);
     }
 
     private void setUpSaveButton() {
@@ -40,7 +55,11 @@ public class AddEvent extends AppCompatActivity {
         save.setOnClickListener(view -> {
             if(!eventTitle.getText().toString().equals("")) {
                 event = new Event(eventTitle.getText().toString(), eventDescription.getText().toString());
-                eventManager.addEvent(event);
+                if(isExistingEventClicked){
+                    eventManager.replaceEvent(event, indexOfEventClicked);
+                } else{
+                    eventManager.addEvent(event);
+                }
                 finish();
             } else {
                 Toast.makeText(AddEvent.this, "Incomplete Title, Cannot Save...", Toast.LENGTH_LONG).show();
@@ -66,5 +85,17 @@ public class AddEvent extends AppCompatActivity {
             finish();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void extractDataFromIntent() {
+        Intent intent = getIntent();
+        isExistingEventClicked = intent.getBooleanExtra(edit, false);
+        indexOfEventClicked = intent.getIntExtra(index, -1);
+    }
+    public static Intent makeLaunchIntent(Context c, int index, boolean edit) {
+        Intent intent = new Intent(c, AddEvent.class);
+        intent.putExtra(AddEvent.index, index);
+        intent.putExtra(AddEvent.edit, edit);
+        return intent;
     }
 }

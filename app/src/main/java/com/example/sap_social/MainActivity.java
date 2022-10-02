@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         setupBottomNav();
         populateListView();
         setupAddButton();
+        registerClickCallback();
     }
 
     private void setupAddButton() {
@@ -107,5 +108,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public static Intent makeIntent(Context context) {
         return new Intent(context, MainActivity.class);
+    }
+    private void registerClickCallback() {
+        ListView list = findViewById(R.id.listOfEvents);
+        list.setOnItemClickListener((adapterView, view, position, l) -> {
+            Intent intent = AddEvent.makeLaunchIntent(MainActivity.this, position, true);
+            startActivity(intent);
+        });
     }
 }

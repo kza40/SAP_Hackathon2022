@@ -40,9 +40,10 @@ public class EventManager implements Iterable<Event> {
         return events.get(idx).getEventTitle();
     }
 
-    public void replaceEvent(String name, String Des, int idx) {
-        events.get(idx).setEventTitle(name);
-        events.get(idx).setEventDescription(Des);
+    public void replaceEvent(Event event, int idx) {
+        events.set(idx, event);
+        //events.get(idx).setEventTitle(name);
+        //events.get(idx).setEventDescription(Des);
     }
 
     public boolean isEmpty() {
