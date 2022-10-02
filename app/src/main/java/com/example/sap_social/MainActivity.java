@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                         return true;
                     case R.id.calender:
-                        Intent intent2 = Calander.makeIntent(MainActivity.this);
+                        Intent intent2 = CalendarActivity.makeIntent(MainActivity.this);
                         startActivity(intent2);
                         return true;
                     case R.id.homeNAV:
