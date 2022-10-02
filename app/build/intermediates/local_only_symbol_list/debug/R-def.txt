@@ -20,7 +20,7 @@ id AddEventTV
 id addEventButton
 id addTaskText
 id bottom_navigator
-id calendarRecyclerView
+id calendarView
 id calender
 id cellDayText
 id checkBox
@@ -31,16 +31,26 @@ id floatingActionButtonToDO
 id homeNAV
 id imageView2
 id listOfEvents
+<<<<<<< HEAD
+id okDoneButton
+id saveEventButton
+id textView3
+=======
 id monthYearTV
 id newTaskButton
 id saveEventButton
 id taskInputText
 id toDoListView
 id toDoText
+>>>>>>> master
 id todolist
+id whosComingText
 layout activity_add_event
+<<<<<<< HEAD
+=======
 layout activity_add_task
 layout activity_calander
+>>>>>>> master
 layout activity_calendar
 layout activity_main
 layout activity_to_do
@@ -53,6 +63,9 @@ mipmap ic_launcher_round
 string app_name
 string calender
 string to_do
+style CalenderViewCustom
+style CalenderViewDateCustomText
+style CalenderViewWeekCustomText
 style Theme.SapSocial
 xml backup_rules
 xml data_extraction_rules

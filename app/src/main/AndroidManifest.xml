@@ -27,7 +27,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Calander"
+            android:name=".CalendarActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

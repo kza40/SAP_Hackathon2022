@@ -127,13 +127,22 @@ ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/Andro
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:19:17-52
+<<<<<<< HEAD
+activity#com.example.sap_social.CalendarActivity
+=======
 activity#com.example.sap_social.AddEvent
+>>>>>>> master
 ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:exported
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
+<<<<<<< HEAD
+		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:23:13-45
+activity#com.example.sap_social.to_do
+=======
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:23:13-37
 activity#com.example.sap_social.Calander
+>>>>>>> master
 ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:29:9-35:20
 	android:exported
 		ADDED from /Users/atkachenko/AndroidStudioProjects/Sap-Social/app/src/main/AndroidManifest.xml:31:13-37

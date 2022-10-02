@@ -35,7 +35,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.sap_social.Calander"
+            android:name="com.example.sap_social.CalendarActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
