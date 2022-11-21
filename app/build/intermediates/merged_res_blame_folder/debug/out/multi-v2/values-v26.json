@@ -4,7 +4,7 @@
             "outputFile": "com.example.sap_social.app-mergeDebugResources-41:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/atkachenko/.gradle/caches/transforms-3/685980b024686d78956b91eec9b43f3b/transformed/appcompat-1.5.1/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\Kiarash\\.gradle\\caches\\transforms-3\\685980b024686d78956b91eec9b43f3b\\transformed\\appcompat-1.5.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

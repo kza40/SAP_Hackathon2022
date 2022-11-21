@@ -4,7 +4,7 @@
             "outputFile": "com.example.sap_social.app-mergeDebugResources-41:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/atkachenko/.gradle/caches/transforms-3/685980b024686d78956b91eec9b43f3b/transformed/appcompat-1.5.1/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Kiarash\\.gradle\\caches\\transforms-3\\685980b024686d78956b91eec9b43f3b\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/atkachenko/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Kiarash\\.gradle\\caches\\transforms-3\\6a19de105318aab1da00cfa3c60fb56e\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
